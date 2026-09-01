@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bjmjpkifoap2r"]
+
+[ext_resource type="PackedScene" uid="uid://dhgkvfnf4m00e" path="res://player.tscn" id="1_xwuul"]
+[ext_resource type="Script" uid="uid://bcfaobqdt2gg0" path="res://sistemas/resource_gather_node.gd" id="2_bj8tx"]
+[ext_resource type="Resource" uid="uid://bsuvkaf75qyjw" path="res://resources/itens/itemTriangulo.tres" id="3_r0gk3"]
+
+[node name="Cenario" type="Node2D" unique_id=827389784]
+
+[node name="CharacterBody2D" parent="." unique_id=1110913538 instance=ExtResource("1_xwuul")]
+script = null
+
+[node name="ResourceGatherNode" type="Node2D" parent="." unique_id=1932092820]
+position = Vector2(631, 56)
+script = ExtResource("2_bj8tx")
+item_to_give = ExtResource("3_r0gk3")
+metadata/_custom_type_script = "uid://bcfaobqdt2gg0"

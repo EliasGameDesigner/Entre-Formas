@@ -1,0 +1,9 @@
+# Pastas geradas pelo Godot
+.godot/
+import/
+export/
+
+# Saída do próprio graphify
+graphify-out/
+
+.exe
