@@ -5,6 +5,7 @@
 
 [node name="MaquinaTriangulos" unique_id=1602997167 instance=ExtResource("1_5gyns")]
 machine_data = ExtResource("2_2wa3b")
+current_state = 1
 production_time = 4.0
 
 [node name="Sprite2D" parent="." index="1" unique_id=1364508202]

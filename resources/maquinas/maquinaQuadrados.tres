@@ -9,6 +9,8 @@
 [resource]
 script = ExtResource("2_ustjb")
 machine_name = "Maquina De Quadrados"
+cost = 0
+repair_cash_cost = 0
 produced_item = ExtResource("1_ustjb")
 required_items = Array[ExtResource("1_tpprp")]([ExtResource("4_732lw"), ExtResource("4_732lw")])
 repair_image = ExtResource("2_ik1i0")

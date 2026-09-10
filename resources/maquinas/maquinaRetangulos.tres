@@ -10,7 +10,7 @@
 script = ExtResource("2_jbtqf")
 machine_name = "Maquina de Retangulos"
 cost = 200
-repair_cash_cost = 100
+repair_cash_cost = 0
 produced_item = ExtResource("1_jbtqf")
 required_items = Array[ExtResource("1_cjh38")]([ExtResource("4_x2q80"), ExtResource("4_x2q80")])
 repair_image = ExtResource("2_x2q80")
