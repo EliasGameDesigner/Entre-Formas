@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://bamtdesuntu5p"
+path="res://.godot/imported/tutorial_dialogue.dialogue-e4093877e7206bfbf5f65aa095180cb3.tres"
+
+[deps]
+
+source_file="res://cenas/tutorial/tutorial_dialogue.dialogue"
+dest_files=["res://.godot/imported/tutorial_dialogue.dialogue-e4093877e7206bfbf5f65aa095180cb3.tres"]
+
+[params]
+
+defaults=true
