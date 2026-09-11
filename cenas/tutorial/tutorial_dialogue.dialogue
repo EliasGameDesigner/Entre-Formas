@@ -1,0 +1,95 @@
+~ intro
+
+Art: Olá, Pit! Antes de começarmos, deixe-me mostrar como as coisas funcionam por aqui.
+Art: Eu sou a Art, sua guia nesta fábrica fantástica!
+Art: Vamos começar pelo básico.
+
+=> END
+
+~ movement
+
+Art: Você pode se movimentar pela fábrica usando as teclas W, A, S e D.
+Art: Experimente se mover um pouco!
+
+=> END
+
+~ movement_done
+
+Art: Muito bem! Você já sabe se movimentar.
+
+=> END
+
+~ interaction
+
+Art: Para interagir com os objetos, use o botão esquerdo do mouse.
+Art: Vê aquelas peças no chão? Aproxime-se e clique nelas para coletá-las!
+
+=> END
+
+~ interaction_done
+
+Art: Perfeito. É assim que você interage com os elementos da fábrica.
+
+=> END
+
+~ mechanic
+
+Art: Agora vamos ao funcionamento da fábrica.
+Art: Aqui combinamos formas simples para criar formas mais complexas.
+Art: Interaja com a máquina quebrada para abrir a mesa de montagem.
+Art: Use o botão esquerdo do mouse para arrastar os triângulos até os encaixes corretos!
+
+=> END
+
+~ mechanic_done
+
+Art: Excelente! Você já entendeu como funciona a montagem geométrica.
+
+=> END
+
+~ collect
+
+Art: Também precisamos de recursos para manter tudo funcionando.
+Art: Aproxime-se da árvore e segure o botão do mouse para fazer a coleta de madeira.
+
+=> END
+
+~ collect_done
+
+Art: Muito bem! Esses recursos serão importantes para a fábrica.
+
+=> END
+
+~ repair
+
+Art: As máquinas precisam de manutenção para operar continuamente.
+Art: Vá até a máquina de quadrados e confirme o conserto para ativá-la!
+
+=> END
+
+~ repair_done
+
+Art: Perfeito! Agora ela pode voltar a funcionar e produzir peças.
+
+=> END
+
+~ sell
+
+Art: Tudo que produzirmos pode ser vendido.
+Art: Leve os itens até o balcão de vendas para convertê-los em dinheiro.
+
+=> END
+
+~ sell_done
+
+Art: Muito bem! Assim você consegue dinheiro para expandir a fábrica.
+
+=> END
+
+~ end_tutorial
+
+Art: Pronto! Agora você conhece o básico.
+Art: A fábrica está esperando por você.
+Art: Boa sorte, Pit!
+
+=> END

@@ -1,0 +1,62 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://cenas/tutorial/tutorial.gd" id="1_tut"]
+[ext_resource type="PackedScene" uid="uid://dhgkvfnf4m00e" path="res://player.tscn" id="2_player"]
+[ext_resource type="PackedScene" uid="uid://c63tnb17ty6dm" path="res://cenas/entidades/maquina_triangulos.tscn" id="3_triang"]
+[ext_resource type="PackedScene" uid="uid://drnrdu1hmmcme" path="res://cenas/entidades/maquina_quadrados.tscn" id="4_quad"]
+[ext_resource type="PackedScene" uid="uid://csxk2rx5cnv6l" path="res://cenas/entidades/Tapete.tscn" id="5_tapete"]
+[ext_resource type="PackedScene" uid="uid://c0mdlghv5mibg" path="res://cenas/genericas/shop_node.tscn" id="6_shop"]
+[ext_resource type="PackedScene" uid="uid://br7hxrvmkn8uc" path="res://cenas/entidades/recurso_Arvore.tscn" id="7_arvore"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wall_h"]
+size = Vector2(1700, 40)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wall_v"]
+size = Vector2(40, 1200)
+
+[node name="Tutorial" type="Node2D"]
+script = ExtResource("1_tut")
+
+[node name="Ground" type="Polygon2D" parent="."]
+z_index = -10
+color = Color(0.24, 0.22, 0.18, 1)
+polygon = PackedVector2Array(-850, -650, 850, -650, 850, 550, -850, 550)
+
+[node name="Walls" type="StaticBody2D" parent="."]
+
+[node name="WallTop" type="CollisionShape2D" parent="Walls"]
+position = Vector2(0, -650)
+shape = SubResource("RectangleShape2D_wall_h")
+
+[node name="WallBottom" type="CollisionShape2D" parent="Walls"]
+position = Vector2(0, 550)
+shape = SubResource("RectangleShape2D_wall_h")
+
+[node name="WallLeft" type="CollisionShape2D" parent="Walls"]
+position = Vector2(-850, -50)
+shape = SubResource("RectangleShape2D_wall_v")
+
+[node name="WallRight" type="CollisionShape2D" parent="Walls"]
+position = Vector2(850, -50)
+shape = SubResource("RectangleShape2D_wall_v")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_player")]
+position = Vector2(0, 50)
+
+[node name="MaquinaTriangulos" parent="." instance=ExtResource("3_triang")]
+position = Vector2(-250, -300)
+
+[node name="MaquinaQuadrados" parent="." instance=ExtResource("4_quad")]
+position = Vector2(250, -300)
+
+[node name="Tapete" parent="." instance=ExtResource("5_tapete")]
+position = Vector2(-250, -130)
+
+[node name="Tapete2" parent="." instance=ExtResource("5_tapete")]
+position = Vector2(250, -130)
+
+[node name="ShopNode" parent="." instance=ExtResource("6_shop")]
+position = Vector2(550, 150)
+
+[node name="RecursoArvore" parent="." instance=ExtResource("7_arvore")]
+position = Vector2(-450, 200)
