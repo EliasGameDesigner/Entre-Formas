@@ -16,6 +16,9 @@ func _ready() -> void:
 
 
 func _process(_delta: float) -> void:
+	if RepairMenu and RepairMenu.visible:
+		return
+		
 	if current_interactable:
 		if Input.is_action_just_pressed("interact"):
 			current_interactable.start_interaction(self)
@@ -24,6 +27,11 @@ func _process(_delta: float) -> void:
 
 
 func _physics_process(_delta: float) -> void:
+	if RepairMenu and RepairMenu.visible:
+		velocity = Vector2.ZERO
+		update_animation(Vector2.ZERO)
+		return
+		
 	var input_direction = Input.get_vector("left", "right", "up", "down")
 	velocity = input_direction * speed
 	move_and_slide()

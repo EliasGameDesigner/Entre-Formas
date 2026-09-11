@@ -22,6 +22,7 @@ GameUI="*uid://dpwnd6ynb1hgm"
 BetterTerrain="*uid://ddh32sqkbpd1"
 RepairMenu="*uid://bhgl8h6f3en3g"
 AudioManager="*uid://drs0tj2d7esju"
+DialogueManager="*uid://c3rodes2l3gxb"
 
 [display]
 
@@ -34,7 +35,7 @@ project/assembly_name="FaculProjeto"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/2d_controls_toolkit/plugin.cfg", "res://addons/better-terrain/plugin.cfg")
+enabled=PackedStringArray("res://addons/2d_controls_toolkit/plugin.cfg", "res://addons/better-terrain/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg")
 
 [input]
 
